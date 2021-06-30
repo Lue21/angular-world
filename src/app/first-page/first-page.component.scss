@@ -4,6 +4,12 @@ p {
   padding: 5px;
 }
 
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: blue;
+}
+
 .wrapper {
   display: grid;
   grid-template-areas:
@@ -26,7 +32,6 @@ p {
   font-weight: 100;
   font-size: 1.5rem;
   color: black;
-
 }
 
 .pageHeader {
