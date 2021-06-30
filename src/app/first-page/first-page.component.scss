@@ -1,0 +1,36 @@
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav article ads"
+    "footer footer footer";
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 20% 1fr 15%;
+  height: 100vh;
+  margin: 0;
+}
+//header, footer, article, nav, div {
+//}
+.pageHeader {
+  grid-area: header;
+  background: white;
+
+}
+.pageFooter {
+  margin-top: 10px;
+  grid-area: footer;
+  background: grey;
+}
+.mainArticle {
+  grid-area: article;
+  background: grey;
+}
+.mainNav {
+  grid-area: nav;
+  background: grey;
+
+}
+.siteAds {
+  grid-area: ads;
+  background: grey;
+}
