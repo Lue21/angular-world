@@ -7,4 +7,24 @@
   font-family: 'Roboto', sans-serif;
 }
 
+p {
+  padding: 5px;
+}
 
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: blue;
+}
+
+//.wrapper {
+//  display: grid;
+//  grid-template-areas:
+//    "header header header"
+//    "nav article ads"
+//    "footer footer footer";
+//  grid-template-rows: 40px 1fr 40px;
+//  grid-template-columns: 20% 1fr 15%;
+//  height: 100vh;
+//  margin: 0;
+//}

@@ -6,6 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import {MainLayoutComponent} from './shared/components/main-layout/main-layout.component';
 import {FirstPageComponent} from './first-page/first-page.component';
 import {SecondPageComponent} from './second-page/second-page.component';
+import {HeaderComponent} from "./shared/components/header/header.component";
+import {FooterComponent} from "./shared/components/footer/footer.component";
 
 
 @NgModule({
@@ -13,8 +15,9 @@ import {SecondPageComponent} from './second-page/second-page.component';
     AppComponent,
     MainLayoutComponent,
     FirstPageComponent,
-    SecondPageComponent
-
+    SecondPageComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

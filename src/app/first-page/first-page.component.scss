@@ -13,58 +13,10 @@ a {
 .wrapper {
   display: grid;
   grid-template-areas:
-    "header header header"
-    "nav article ads"
-    "footer footer footer";
-  grid-template-rows: 40px 1fr 40px;
+    "nav article ads";
   grid-template-columns: 20% 1fr 15%;
   height: 100vh;
   margin: 0;
-}
-
-.header_wrapper{
-  display: flex;
-  align-items: center;
-}
-
-.title {
-  text-transform: uppercase;
-  font-weight: 100;
-  font-size: 1.5rem;
-  color: black;
-}
-
-.pageHeader {
-  grid-area: header;
-  background: #fff;
-  align-items: center;
-}
-.pageFooter {
-  margin-top: 5px;
-  grid-area: footer;
-  background: #E8E8E8;
-}
-
-.footer_wrapper {
-  height: 100%;
-  margin-right: 10px;
-  margin-left: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-size: 0.7rem;
-}
-
-.footer_right {
-  display: flex;
-}
-
-.footer_left {
-  display: flex;
-}
-
-.copyright {
-  color: gray;
 }
 
 .mainArticle {
