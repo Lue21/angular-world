@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondPageComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    console.log(String, 'hello from second page');
+  }
 
   ngOnInit() {
   }

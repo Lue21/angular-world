@@ -7,8 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FirstPageComponent implements OnInit {
 
-  constructor() { }
-
+  constructor() {
+    console.log(String, 'hello from first page');
+  }
   ngOnInit() {
   }
 
