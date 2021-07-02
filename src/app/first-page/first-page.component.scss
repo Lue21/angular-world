@@ -13,10 +13,17 @@ a {
 .wrapper {
   display: grid;
   grid-template-areas:
+    "header header header"
     "nav article ads";
+  grid-template-rows: 30px 1fr;
   grid-template-columns: 20% 1fr 15%;
   height: 100vh;
   margin: 0;
+}
+
+.mainTitle {
+  grid-area: header;
+  background: #E8E8E8;
 }
 
 .mainArticle {
