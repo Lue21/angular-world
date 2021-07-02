@@ -31,3 +31,18 @@ a {
   grid-area: ads;
   background: #E8E8E8;
 }
+
+.skills_post {
+  display: flex;
+}
+
+.skills_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills_post {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}

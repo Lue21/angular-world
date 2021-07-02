@@ -8,6 +8,7 @@ import {FirstPageComponent} from './first-page/first-page.component';
 import {SecondPageComponent} from './second-page/second-page.component';
 import {HeaderComponent} from "./shared/components/header/header.component";
 import {FooterComponent} from "./shared/components/footer/footer.component";
+import { PostComponent } from './first-page/components/post/post.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import {FooterComponent} from "./shared/components/footer/footer.component";
     FirstPageComponent,
     SecondPageComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    PostComponent
   ],
   imports: [
     BrowserModule,
