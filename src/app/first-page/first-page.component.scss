@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+
+p {
+  padding: 5px;
+}
+
+a {
+  padding: 5px;
+  text-decoration: none;
+  color: blue;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "nav article ads";
+  grid-template-rows: 30px 1fr;
+  grid-template-columns: 20% 1fr 15%;
+  height: 100vh;
+  margin: 0;
+}
+
+.mainTitle {
+  grid-area: header;
+  background: #E8E8E8;
+}
+
+.mainArticle {
+  grid-area: article;
+  background: #E8E8E8;
+}
+.mainNav {
+  grid-area: nav;
+  background: #E8E8E8;
+}
+.siteAds {
+  grid-area: ads;
+  background: #E8E8E8;
+}
+
+.skills_post {
+  display: flex;
+}
+
+.skills_title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skills_post {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
